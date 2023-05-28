@@ -18,4 +18,4 @@ This a simple HTML project.
 I did use HTML and CSS
 
 ## License
-Distributed under the GNU GENERAL PUBLIC LICENSE. See [LICENSE.txt](https://choosealicense.com/licenses/gpl-3.0/) for more information.
+Distributed under the MIT LICENSE. See [LICENSE.txt](https://choosealicense.com/licenses/mit/#) for more information.
