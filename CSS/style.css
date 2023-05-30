@@ -1,15 +1,40 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #1A2240;
+    color: #FFF;
+}
+
 h1 {
     text-align: center;
     width: 60%;
+    margin: 0 auto;
+    padding: 5%;
 }
 
-header img {
-    width: 60%;
-    max-height: 1000px;
+figure {
+    width: 100%;
+    margin: 0 auto;
+}
+
+figure img {
+    display: block;
+    width: 70%;
     margin: 0 auto;
 }
 
 .bio p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
     text-align: justify;
+    padding: 10%
+}
+
+.bio {
+    margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
 }
