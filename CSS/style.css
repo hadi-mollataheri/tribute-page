@@ -72,5 +72,6 @@ footer p {
 @media only screen and (orientation: portrait) and (max-width: 480px) {
     .bio p {
         font-size: 0.875rem;
+        word-spacing: 0.1px;
     }
 }
