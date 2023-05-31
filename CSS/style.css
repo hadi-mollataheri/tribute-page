@@ -24,6 +24,24 @@ figure img {
     margin: 0 auto;
 }
 
+.banner {
+    text-align: left;
+}
+
+.banner figcaption {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.copyright {
+    color: #bcb8b8;
+}
+
+.copyright:hover {
+    color: gray;
+    text-decoration: none;
+}
+
 .bio p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1rem;
