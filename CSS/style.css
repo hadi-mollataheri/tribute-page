@@ -1,7 +1,10 @@
+html {
+    font-size: 16px;
+}
+
 body {
     width: 100%;
     margin: 0 auto;
-    font-size: 16px;
     background-color: #1A2240;
     color: #FFF;
 }
@@ -55,4 +58,12 @@ figure img {
 
 footer p {
     text-align: center;
+}
+
+
+/* media query for tablet in landscape mode */
+@media only screen and (orientation: landscape) and (max-width: 1024px) {
+    .bio p {
+        font-size: 1.25rem;
+    }
 }
