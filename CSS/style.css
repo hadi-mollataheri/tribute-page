@@ -48,8 +48,9 @@ figure img {
 .bio p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1rem;
-    text-align: justify;
-    padding: 10%
+    text-align: left;
+    padding: 10%;
+    word-spacing: normal;
 }
 
 .bio {
@@ -69,10 +70,12 @@ footer p {
 }
 
 /* media query for mobile in portrait */
-@media only screen and (orientation: portrait) and (max-width: 480px) {
+@media only screen and (orientation: portrait) and (max-width: 424px) {
     .bio p {
         font-size: 0.875rem;
-        word-spacing: normal;
-        text-align: left;
+    }
+
+    h1 {
+        font-size: 28px;
     }
 }
